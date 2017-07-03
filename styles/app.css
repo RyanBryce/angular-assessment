@@ -8,11 +8,17 @@
     text-align: center;
 
 }
+.logo {
+  height: 50px;
+  position: absolute;
+  padding-right: 200px;
+  top: 50px;
+  right: 0;
+}
 
 .jumbotron h1 {
     color: #fff;
 }
-
 
 .main-cta {
     width: 45%;

@@ -3,9 +3,8 @@
         <p>Shop Page</p>
     </div>
 </section>
-<div class="product-grid__item   grid__item one-half large--one-third" >
+<div class="product-grid__item   grid__item one-half large--one-third" ng-repeat="p in products" >
 
     <!--Repeat over your data and display it below -->
-
-    
+    <wow-product p="p"></wow-product>
 </div>
